@@ -106,7 +106,8 @@ ADMIN_EMAIL = 'elmansourabwab@gmail.com'
 
 CORS_ALLOWED_ORIGINS = [
 
-    "http://72.62.17.204",
-    "http://localhost:3000",
+   "72.62.17.204",
+    "localhost",
+    "127.0.0.1",
 ]
 CORS_ALLOW_CREDENTIALS = True
