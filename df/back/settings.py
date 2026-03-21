@@ -2,7 +2,12 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = "django-insecure-w)wgd(t9+j-m)1k4ymo4i_6^nfo9o-kwdnn_15_7n)#2@v)d!a"
 DEBUG = True
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "72.62.17.204",
+    "http://localhost:3000",
+    "abwabelmansour-maroc.com",
+    "www.abwabelmansour-maroc.com",
+]
 INSTALLED_APPS = [
     "django.contrib.admin",
     "django.contrib.auth",
@@ -106,9 +111,8 @@ ADMIN_EMAIL = 'elmansourabwab@gmail.com'
 
 CORS_ALLOWED_ORIGINS = [
     "http://72.62.17.204",
-    "http://127.0.0.1",
-    "http://localhost",
     "http://localhost:3000",
-    "http://72.62.17.204:8000",
+    "https://abwabelmansour-maroc.com",
+    "https://www.abwabelmansour-maroc.com",
 ]
 CORS_ALLOW_CREDENTIALS = True
